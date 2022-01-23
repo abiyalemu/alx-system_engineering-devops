@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# script that prints 10 times Best School using a while loop.
+COUNTER=1
+while [ "$COUNTER" -le 10 ]; do
+    echo 'Best School'
+    let COUNTER=COUNTER + 1
+done
